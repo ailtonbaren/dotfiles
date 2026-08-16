@@ -1,0 +1,2 @@
+#!/bin/bash
+arduino-cli compile --upload -p /dev/ttyACM0 --fqbn esp32:esp32:esp32 .

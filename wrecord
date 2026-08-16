@@ -1,0 +1,2 @@
+#!/bin/bash
+ffmpeg -f pulse -i alsa_output.pci-0000_06_00.6.analog-stereo.monitor "output_$(date +%d-%m-%Y_%H-%M-%S).wav"

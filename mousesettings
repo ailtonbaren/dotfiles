@@ -1,0 +1,17 @@
+#!/bin/bash
+TPD="SynPS/2 Synaptics TouchPad"
+TP="TPPS/2 Elan TrackPoint"
+SW="YJX-CHIP USB Receiver Mouse"
+SWU="YJX-CHIP USB MOUSE Mouse"
+
+xinput set-button-map "$SW" 3 2 1
+xinput set-button-map "$SWU" 3 2 1
+
+xinput set-prop "$SW" "libinput Accel Speed" -0.5
+xinput set-prop "$SWU" "libinput Accel Speed" -0.5
+xinput set-prop "$TP" "libinput Accel Speed" -0.3
+
+xinput set-prop "$TPD" "libinput Accel Speed" 0.2
+xinput set-prop "$TPD" "libinput Tapping Enabled" 1
+xinput set-prop "$TPD" "libinput Natural Scrolling Enabled" 1
+xinput set-prop "$TP" "libinput Natural Scrolling Enabled" 0

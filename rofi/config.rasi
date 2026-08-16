@@ -1,0 +1,6 @@
+@theme "/usr/share/rofi/themes/Monokai.rasi"
+configuration {
+	font: "Terminus 12";
+	modes: [ window, drun, run, combi ];
+
+}
