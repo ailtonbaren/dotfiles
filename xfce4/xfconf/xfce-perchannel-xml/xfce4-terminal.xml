@@ -1,0 +1,31 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<channel name="xfce4-terminal" version="1.0">
+  <property name="font-use-system" type="bool" value="false"/>
+  <property name="misc-show-unsafe-paste-dialog" type="bool" value="false"/>
+  <property name="dropdown-always-show-tabs" type="bool" value="false"/>
+  <property name="misc-menubar-default" type="bool" value="false"/>
+  <property name="misc-borders-default" type="bool" value="false"/>
+  <property name="background-mode" type="string" value="TERMINAL_BACKGROUND_TRANSPARENT"/>
+  <property name="scrolling-bar" type="string" value="TERMINAL_SCROLLBAR_NONE"/>
+  <property name="misc-confirm-close" type="bool" value="false"/>
+  <property name="font-allow-bold" type="bool" value="false"/>
+  <property name="font-name" type="string" value="Terminus 12"/>
+  <property name="misc-default-geometry" type="string" value="115x36"/>
+  <property name="background-darkness" type="double" value="0.81999999999999995"/>
+  <property name="color-foreground" type="string" value="#ffffffffffff"/>
+  <property name="color-background" type="string" value="#000000000000"/>
+  <property name="color-background-vary" type="bool" value="false"/>
+  <property name="color-cursor-foreground" type="string" value=""/>
+  <property name="color-cursor" type="string" value="#93a1a1"/>
+  <property name="color-cursor-use-default" type="bool" value="true"/>
+  <property name="color-selection" type="string" value=""/>
+  <property name="color-selection-background" type="string" value=""/>
+  <property name="color-selection-use-default" type="bool" value="true"/>
+  <property name="color-bold" type="string" value="#93a1a1"/>
+  <property name="color-bold-use-default" type="bool" value="false"/>
+  <property name="color-palette" type="string" value="rgb(145,65,172);rgb(220,50,47);rgb(71,137,69);rgb(248,228,92);rgb(255,190,111);rgb(192,97,203);rgb(42,161,152);rgb(255,255,255);rgb(181,131,90);rgb(38,162,105);rgb(220,138,221);rgb(181,131,90);rgb(98,160,234);rgb(248,228,92);rgb(246,211,45);rgb(246,245,244)"/>
+  <property name="color-bold-is-bright" type="bool" value="true"/>
+  <property name="color-use-theme" type="bool" value="false"/>
+  <property name="tab-activity-color" type="string" value="#dc322f"/>
+</channel>
