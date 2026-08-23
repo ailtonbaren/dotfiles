@@ -1,0 +1,19 @@
+#!/bin/bash
+case "$1" in
+    aoc)
+        xrandr --output eDP-1 --off
+        xrandr --output HDMI-1 --mode 1920x1080 --rate 100
+        ;;
+    laptop)
+        xrandr --output HDMI-1 --off
+        xrandr --auto
+        ;;
+    aoclap)
+    	xrandr --auto
+    	xrandr --output HDMI-1 --mode 1920x1080 --rate 100
+    	xrandr --output eDP-1 --below HDMI-1
+		;;
+    *)
+    	    echo "aoc laptop aoclap"
+    	;;
+esac
